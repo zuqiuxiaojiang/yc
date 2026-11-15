@@ -1,0 +1,16 @@
+name: Mirror to Gitee
+on:
+  push:
+    branches: [main]   # 你的主分支名
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Push to Gitee
+        run: |
+          git remote add gitee https://${{ secrets.GITEE_USER }}:${{ secrets.GITEE_TOKEN }}@gitee.com/zuqiuxiaojiang/yc.git
+          git push gitee main --force
