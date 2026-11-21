@@ -488,24 +488,6 @@
       "stats": { "presented": 0, "answered": 0, "correct": 0 }
     },
     {
-      "id": "q_tf_sx_13",
-      "subject": "数学",
-      "level": "七年级",
-      "difficulty": 3,
-      "q": "用科学记数法表示 -0.000 045，结果为____。",
-      "type": "text",
-      "tip": "注意负号，小数点向右移动4位，指数为-4。",
-      "answers": ["-4.5×10⁻⁵", "-4.5*10^-5", "-4.5×10^-5"],
-      "bank": "提分题库",
-      "image": "",
-      "audio": "",
-      "language": "zh-CN",
-      "a": [],
-      "k": 0,
-      "enabled": true,
-      "stats": { "presented": 0, "answered": 0, "correct": 0 }
-    },
-    {
       "id": "q_tf_sx_14",
       "subject": "数学",
       "level": "七年级",
